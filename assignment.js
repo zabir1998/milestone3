@@ -38,7 +38,7 @@ function tinyFriend(friends) {
     for(var i = 0; i < friends.length; i++){
         var selectedFriend = friends[i];
         if(selectedFriend.length < smallest.length){
-            smallesst = selectedFriend;
+            smallest = selectedFriend;
         }
     }
     console.log("Tiniest Friend is: ", smallest);
